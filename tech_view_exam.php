@@ -48,7 +48,7 @@
 					</select>
 				</div>
 				<div class="rbox">
-					<label>Class</label><br>
+					<label>Batch</label><br>
 					<select name="cla" required class="input3">
 				
 						<?php 

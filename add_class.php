@@ -42,19 +42,17 @@
 					?>
 						
 				<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-					<label>Class Name</label><br>
+					<label>Batch</label><br>
 				<select name="cname"  required class="input2">
 						<option value="">Select</option>
-						<option value="I">I</option>
-						<option value="II">II</option>
-						<option value="III">III</option>
-						<option value="IV">IV</option>
-						<option value="V">V</option>
-						<option value="VI">VI</option>
-						<option value="VII">VII</option>
-						<option value="VIII">VIII</option>
-						<option value="IX">IX</option>
-						<option value="X">X</option>
+						<option value="17-1">17-1</option>
+						<option value="17-2">17-2</option>
+						<option value="17-3">17-3</option>
+						<option value="18-1">18-1</option>
+						<option value="18-1">18-2</option>
+						<option value="18-1">18-3</option>
+					
+
 						
 					</select><br><br>
 					<label>Section </label><br>
@@ -89,7 +87,7 @@
 					<table border="1px" >
 						<tr>
 							<th>S.No</th>
-							<th>Class Name</th>
+							<th>Batch</th>
 							<th>Section</th>
 							<th>Delete</th>
 						</tr>

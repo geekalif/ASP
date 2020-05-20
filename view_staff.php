@@ -25,7 +25,7 @@
 					
 					<div class="content1">
 					
-						<h3 > View Staff Details</h3><br>
+						<h3 > View Teacher Details</h3><br>
 						<form id="frm" autocomplete="off">
 							<input type="text" id="txt" class="input">
 						</form>

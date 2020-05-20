@@ -18,8 +18,6 @@
 	
 		<?php include"navbar.php";?><br>
 		
-		
-		<!-- <img src="img/1.jpg" style="margin-left:90px;" class="sha"> -->
 			
 			<div id="section">
 			

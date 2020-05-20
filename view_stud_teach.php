@@ -43,7 +43,6 @@
 							<th>Address</th>
 							<th>Class</th>
 							<th>Sec</th>
-							<th>Image</th>
 							<th>Delete</th>
 						</tr>
 						<?php
@@ -68,7 +67,6 @@
 											<td>{$r["ADDR"]}</td>
 											<td>{$r["SCLASS"]}</td>
 											<td>{$r["SSEC"]}</td>
-											<td><img src='{$r["SIMG"]}' height='70' width='70'></td>
 											<td><a href='stud_delete.php?id={$r["ID"]}' class='btnr'>Delete</a><td>
 										</tr>
 									

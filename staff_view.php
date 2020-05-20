@@ -28,7 +28,7 @@
 				<h3 class="text">Welcome <?php echo $_SESSION["ANAME"]; ?></h3><br><hr><br>
 				<div class="content1">
 					
-						<h3 > View Staff Details</h3><br>
+						<h3 > View Teacher Details</h3><br>
 						<div class="ibox">
 							<img src="<?php echo $row["IMG"]; ?>" height="230" width="230">
 							

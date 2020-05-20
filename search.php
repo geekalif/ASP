@@ -5,7 +5,7 @@
 	$res=$db->query($sql);
 		echo "<table border='1px' class='table'>
 				<tr>
-					<th>S.No</th>
+					<th>T.No</th>
 					<th>Name</th>
 					<th>Qualification</th>
 					<th>Salary</th>
