@@ -17,7 +17,6 @@
 	
 	<body>
 			<?php include"navbar.php";?><br>
-			<!-- <img src="img/1.jpg" style="margin-left:90px;" class="sha"> -->
 			
 			<div id="section">
 				
@@ -26,7 +25,7 @@
 				<h3 class="text">Welcome <?php echo $_SESSION["ANAME"]; ?></h3><br><hr><br>
 				<div class="content1">
 					
-						<h3 > Add Staff Details</h3><br>
+						<h3 > Add Teacher Details</h3><br>
 						
 					<?php
 						if(isset($_POST["submit"]))
@@ -45,7 +44,7 @@
 						
 					?>
 					<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-					     <label>Staff Name</label><br>
+					     <label>Teacher Name</label><br>
 					     <input type="text" name="sname" required class="input">
 					     <br><br>
 					     <label>Qualification</label><br>

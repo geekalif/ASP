@@ -50,7 +50,7 @@
 					<input type="text" name="aname" required class="input"><br><br>
 					<label>Password </label><br>
 					<input type="password" name="apass" required class="input"><br>
-					<button type="submit" class="btn" name="login">Login Here</button>
+					<button type="submit" class="btn" name="login">Login</button>
 				</form>
 			</div>
 		</div>

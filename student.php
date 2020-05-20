@@ -91,7 +91,6 @@
 											<th>Address</th>
 											<th>Class</th>
 											<th>Sec</th>
-											<th>Image</th>
 										</tr>
 									
 									
@@ -113,7 +112,6 @@
 											<td>{$r["ADDR"]}</td>
 											<td>{$r["SCLASS"]}</td>
 											<td>{$r["SSEC"]}</td>
-											<td><img src='{$r["SIMG"]}' height='70' width='70'></td>
 										
 										
 										</tr>

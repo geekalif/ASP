@@ -51,8 +51,9 @@
 						<label> Select Term</label><br>
 							<select name="etype" required class="input3">
 						       <option value="">Select</option>
-						       <option value="I-Term">Mid-Term</option>
-						       <option value="II-Term">Final-Term</option>
+							   <option value="Quiz">Quiz</option>
+						       <option value="Mid">Mid-Term</option>
+						       <option value="Final">Final-Term</option>
 							</select>
 					<br><br>
 					
@@ -127,7 +128,7 @@
 					<br><br>
 					
 					
-					<label>Class</label>
+					<label>Batch</label>
 					<select name="cla" required class="input3">
 						<?php
 							$sl="select DISTINCT(CNAME) from class";

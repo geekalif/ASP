@@ -29,7 +29,7 @@
 				<li><a href="teacher_login.php">Teacher</a></li>
 				<li><a href="student_login.php">Student</a></li>
 				<li><a href="student_login.php">Parent</a></li>
-				<li><a href="register.php">Register</a></li>';
+				<li><a href="registration.php">Register</a></li>';
 				}
 			?>
 				
